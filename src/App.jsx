@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './pages/home'
+import Home from './pages/Home'
 import Navber from './components/shared/navber'
 import Footer from './components/shared/Footer'
 import About from './pages/About'
@@ -13,10 +13,10 @@ function App() {
     <BrowserRouter>
      <Navber/>
      <Routes>
-      <Route path='/'element={<Home/>}/>
-      <Route path='/About'element={<About/>}/>
-      <Route path='/Services'element={<Services/>}/>
-      <Route path='/Contact-us'element={<Contant/>}/>
+      <Route path="/" element={<Home/>} />
+      <Route path="/About" element={<About/>} />
+      <Route path="/Services" element={<Services/>} />
+      <Route path="/Contant-us" element={<Contant/>} />
      </Routes>
      <Footer/>
     </BrowserRouter>
