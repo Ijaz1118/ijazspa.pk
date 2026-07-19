@@ -8,7 +8,7 @@ function Services() {
     <div>
       <Prices/>
       <Testimonials/>
-      <Cta/>
+     
     </div>
   )
 }

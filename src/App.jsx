@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './pages/Home'
-import Navber from './components/shared/navber'
+import Navber from './components/shared/Navber'
 import Footer from './components/shared/Footer'
 import About from './pages/About'
 import Services from './pages/Services'
